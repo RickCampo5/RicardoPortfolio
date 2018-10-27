@@ -1,0 +1,88 @@
+body, html{
+  margin: 0;
+  padding: 0;
+  font-family: 'Niramit', sans-serif;
+}
+
+.page-title{
+  background-color: #c8e6c9;
+  -webkit-transition: background-color 800ms linear;
+  -ms-transition: background-color 800ms linear;
+  transition: background-color 800ms linear;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.page-title:hover{
+  background-color: #66bb6a;
+  color: #fff;
+  -webkit-transition: background-color 800ms linear;
+  -ms-transition: background-color 800ms linear;
+  transition: background-color 800ms linear;
+}
+
+.about-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-card{
+  width: 300px;
+  text-align: center;
+}
+
+.about-card i{
+  font-size: 42px;
+  color: #66bb6a
+}
+
+.textMean{
+  width: 300px;
+}
+
+img{
+  width: 300px;
+  height: 290px;
+}
+
+.card{
+  width: 300px;
+}
+
+#container-portfolio{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards-container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100vw;
+  max-width: 100%;
+}
+
+.footer-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  font-size: 36px;
+  background-color: #66bb6a;
+}
+
+.footer-container i{
+  font-size: 42px;
+  margin-left: 20px;
+}
+
+p{
+  font-size: 20px;
+}

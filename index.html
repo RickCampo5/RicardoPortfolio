@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Niramit" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+  <link rel="shortcut icon" type="image/png" href="https://res.cloudinary.com/dfjzvlip6/image/upload/v1540679952/favicon.png">
+  <title>Ricardo Campos | WebDev</title>
+</head>
+<body>
+  <section class="page-title">
+    <div class="bounceInDown animated">
+      <h1>Hola! Soy Ricardo Campos y soy desarrollador web FullStack</h1>
+      <h2>Aqui podás ver algo mi trabajo:</h2>
+      <button onclick="document.getElementById('container-portfolio').scrollIntoView();" class="waves-effect waves-light btn green white-text" onclick="document.getElementById('container-portfolio').scrollIntoView();" >Mostrar proyectos</button>
+    </div>
+  </section>
+  <!-- About -->
+  <section class="about-container">
+    <h3>Acerca de mis trabajos</h3>
+    <article class="cards-container">
+      <div class="about-card">
+        <h4>Diseño Responsivo</h4>
+        <i class="fas fa-mobile-alt"></i>
+        <p>Mis web apps funcionan en cualquier dispositivo</p>
+      </div>
+      <div class="about-card">
+        <h4>Enfocado al Usuario</h4>
+        <i class="fas fa-users"></i>
+        <p>Buscando la mejor experiencia de uso para los usuarios finales</p>
+      </div>
+      <div class="about-card">
+        <h4>Rapidez</h4>
+        <i class="fas fa-rocket"></i>
+        <p>Web apps con respuesta rapida</p>
+      </div>
+    </article>
+    <h3>Desarrollo MEAN stack</h3>
+    <article class="cards-container">
+      <img src="https://res.cloudinary.com/dfjzvlip6/image/upload/v1540244284/mean_logo.png" alt="MEAN">
+      <p class="textMean">Desarrollo aplicaciones web con las tecnologías basadas en JavaScript lo cual hace que sean bastante flexibles y rápidas</p>
+    </article>
+  </section>
+  <!-- Portfolio -->
+  <section id="container-portfolio">
+    <div>
+      <h2>Proyectos</h2>
+    </div>
+    <article class="cards-container">
+      <div class="card hoverable">
+        <div class="card-image waves-effect waves-block waves-light">
+          <a target="_blank" href="https://rickcampo5.github.io/Subway/">
+            <img src="https://res.cloudinary.com/dfjzvlip6/image/upload/v1534425875/assets/Captura_de_pantalla_2018-08-16_a_la_s_08.24.13.png" alt="">
+          </a>
+        </div>  
+        <div class="card-content green lighten-1 white-text">
+          <span class="card-title activator">SubWey!<i class="material-icons right">Más</i></span>
+          <p><a class="white-text" target="_blank" href="https://rickcampo5.github.io/Subway/">Juégalo!</a></p>
+        </div>
+        <div class="card-reveal green lighten-1 white-text">
+          <span class="card-title">SubWey!<i class="material-icons right">Cerrar</i></span>
+          <p>
+            Videojuego basado en el reto que vivimos al transportarnos en la 
+            Ciudad de Mexico Tecnologías: JavaScript HTML & CSS
+          </p>
+        </div>
+      </div>
+      <div class="card hoverable">
+        <div class="card-image waves-effect waves-block waves-light">
+          <a target="_blank" href="https://protected-reef-98621.herokuapp.com">
+            <img src="https://res.cloudinary.com/dfjzvlip6/image/upload/v1532011568/assets/method-draw-image.png" alt="">
+          </a>
+        </div>  
+        <div class="card-content green lighten-1 white-text">
+          <span class="card-title activator">Buena Receta<i class="material-icons right">Más</i></span>
+          <p><a class="white-text" target="_blank" href="https://protected-reef-98621.herokuapp.com">Vélo aquí</a></p>
+        </div>
+        <div class="card-reveal green lighten-1 white-text">
+          <span class="card-title">Buena Receta<i class="material-icons right">Cerrar</i></span>
+          <p>
+            Full Stack Web App para hacer ordenes a los supermecados basadose en las recetas  
+            existentes en la pagina y asi evitar el desperdicio de ingredientes. 
+            Tecnologías: JavaScript, Node.js, Express & MongoDb.
+          </p>
+        </div>
+      </div>
+      <div class="card hoverable">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img src="https://res.cloudinary.com/dfjzvlip6/image/upload/v1533667220/ChordList/stencil.blog-post-image.png" alt="">
+        </div>  
+        <div class="card-content green lighten-1 white-text">
+          <span class="card-title activator">Chords List<i class="material-icons right">Más</i></span>
+          <p><a class="white-text" target="_blank" href="https://chordslist.herokuapp.com/chords">Vélo aquí</a></p>
+        </div>
+        <div class="card-reveal green lighten-1 white-text">
+          <span class="card-title">Chords List<i class="material-icons right">Cerrar</i></span>
+          <p>
+            Full Stack Web App diseñada para compartir tu repertoria de canciones con 
+            los demas miembros de tu banda. 
+            Tecnologías: MongoDb, Express.js, Angular & Node.js
+          </p>
+        </div>
+      </div>
+    </article>
+  </section>
+    <footer class="footer-container">
+      <a class="white-text" href="mailto:ricamposm@gmail.com">ricamposm[at]gmail.com</a>
+      <a class="white-text" target="_blank" href="https://github.com/RickCampo5">
+        <i class="fab fa-github"></i>
+      </a>
+      <a class="white-text" target="_blank" href="https://www.linkedin.com/in/ricardoismaelcamposmartinez/">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
